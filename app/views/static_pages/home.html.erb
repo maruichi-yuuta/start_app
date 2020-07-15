@@ -1,7 +1,15 @@
-<% provide(:title, "Home") %>
-<h1>Sample App</h1>
-<p>
-  This is the home page for the
-  <a href="https://railstutorial.jp/">Ruby on Rails Tutorial</a>
-  sample application.
-</p>
+<div class="center jumbotron">
+ 
+  <%= image_tag("INNOVATION.jpg")%>
+  <h2>
+    会社再建に携わる小さく大きな
+    <a href="https://railstutorial.jp/">INNOVATION</a>
+  </h2>
+
+  <h3>
+    まずは、君から始めよう
+    <%= link_to "Sign Up", new_user_path, class: "btn btn-lg btn-primary" %>
+  </h3>
+
+ <h1>At one opportunity<br>INNOVATION</h1>
+ <h2>一つの機会で世界は変わる</h2>
